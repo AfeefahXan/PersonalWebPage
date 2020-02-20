@@ -1,0 +1,105 @@
+body{
+    height: 100%;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: black;
+    text-align: center;
+    font-family: Calibri, Georgia, Times;
+    color: #ffffff;
+    background-image: url("qouteimg3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div#header{
+overflow: hidden;
+margin-bottom: 64px;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+div.overlay-block[id="header"]{
+    font-size: 1em;
+    padding: 10px;
+}
+
+div.overlay-block[id="header"] a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+div.overlay-block{
+    display: block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 2px #000000;
+}
+
+div p#name{
+    float: left;
+    width: 45%;
+    font-size: 1.28em;
+}
+
+div p{
+    font-family: Calibri, 'Lato', sans-serif;
+    text-shadow: 0px 1px 4px #000000;
+}
+
+div p#links{
+    float:right;
+    width: 45%;
+    text-align: right;
+}
+
+body img#profilepic{
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px 0px black;
+    width: 192px;
+}
+
+div#main p#qoute{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: block;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 300px;
+    padding: 100px;
+    font-size: 2em;
+    font-style: italic;
+    box-shadow: 0px 0px 2px #000000;
+    list-style: none;
+}
+
+/* 
+p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    overflow: hidden;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1em;
+    text-decoration: none;
+    color: lightskyblue;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 2px #000000;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    clear: both;
+} */

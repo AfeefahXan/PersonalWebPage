@@ -1,0 +1,326 @@
+body{
+    /* display: block;
+    width: 100%; */
+    height: 100%;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: black;
+    font-family: Calibri, Georgia, Times;
+    color: #ffffff;
+    background-image: url("qouteimg3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div#header{
+overflow: hidden;
+margin-bottom: 64px;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+div.overlay-block[id="header"]{
+    font-size: 1em;
+    padding: 10px;
+
+}
+
+div.overlay-block[id="header"] a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+div.overlay-block{
+    display: block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 2px #000000;
+}
+
+div p#name{
+    float: left;
+    width: 45%;
+    font-size: 1.28em;
+}
+
+div p#links{
+    float:right;
+    width: 45%;
+    text-align: right;
+}
+
+
+nav{
+    /* border-style: dotted;
+    border-color: red; */
+    float: left;
+    margin: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 500px;
+    width: 12%;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 2px #000000;
+}
+
+nav h3{
+    list-style: none;
+    background-image: url(blackfabric.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    border: ridge;
+    border-color: #000000;
+    display: block; 
+    padding: 5px;
+    margin: 0;
+    line-height: 2em;
+}
+
+nav p.head{
+    list-style: none;
+    background-image: url(blackfabric.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    border: ridge;
+    border-color: #000000;
+    display: block;
+    opacity: 1;
+}
+
+
+p.head a:hover{
+    opacity: 0.5;
+    background-color: black;
+}
+
+nav p{
+    list-style: none;
+    line-height: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+nav p a.top{
+    border-bottom: 1px solid grey;
+}
+
+nav p.menu{
+    line-height: 3em;
+}
+
+nav div p#author{
+    border-style: ridge;
+}
+
+nav div p#para{
+    font-size: 0.7em;
+    font-style: italic;
+    margin: 20px;
+}
+
+nav h4{
+    list-style: none;
+    background-image: url(blackfabric.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    border: ridge;
+    border-color: #000000;
+    display: block; 
+    padding: 5px;
+    margin: 0;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+}
+
+p.menu a:hover{
+    opacity: 0.8;
+    background-color: black;
+}
+
+div#main{
+    background-color: rgba(0, 0, 0, 0.65);
+    display: block;
+    margin-top: 50px;
+    padding: 100px;
+    font-size: 1em;
+    font-style: italic;
+    box-shadow: 0px 0px 2px #000000;
+    list-style: none;
+    float: left;
+    /* border-style: dotted;
+    border-color: red; */
+    width: 60%;
+}
+
+div#main img {
+    width: 575px;
+    padding-right: 20px;
+}
+
+div#main article{
+    width: 55%;
+    padding: 10px 0 0 20px;
+    float: left;
+}
+
+div#main aside{
+    float: right;
+    background-color: rgb(135, 206, 250, 0.3);
+    box-shadow: 0px 0px 2px #000000;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+img#mock{
+   width: 575px;
+   padding-right: 20px;
+   padding-top: 20px;
+   padding-left: 20px;
+   border-radius: 20%
+}
+
+aside#profile{
+    width: 21%;
+    word-wrap: break-word;
+}
+
+aside#profile p{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+div#main aside img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+div#main h1{
+    float: left;
+    padding: 2px 15px 0 20px;
+    letter-spacing: 0.1em;
+}
+
+p#secondp{
+    background-color: rgb(135, 206, 250, 0.3);
+    box-shadow: 0px 0px 2px #000000;
+    border-style: solid;
+    border-radius: 20%;
+    display: block;
+    margin: auto;
+    width: 40%;
+    float: left;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+p#secondp img{
+    width: 200px;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 20%;
+    margin-bottom: 15px;
+}
+
+p#secondp a{
+    text-decoration: none;
+    border-style: solid;
+    border-color: #ffffff;
+    margin-bottom: 10px;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+p#secondp a:hover{
+    background-color: rgba(205, 228, 254, 0.5);
+}
+
+p#thirdp{
+    background-color: rgb(135, 206, 250, 0.3);
+    box-shadow: 0px 0px 2px #000000;
+    border-style: solid;
+    border-radius: 20%;
+    display: block;
+    margin: auto;
+    width: 40%;
+    float: left;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    word-wrap: break-word;
+    margin-top: 30px;
+    text-align: center;
+}
+
+p#thirdp img{
+    width: 200px;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 20%;
+    margin-bottom: 15px;
+}
+
+p#thirdp a{
+    text-decoration: none;
+    border-style: solid;
+    border-color: #ffffff;
+    margin-bottom: 10px;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+p#thirdp a:hover{
+    background-color: rgba(205, 228, 254, 0.5);
+}
+
+p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    overflow: hidden;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1em;
+    text-decoration: none;
+    color: lightskyblue;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 2px #000000;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    clear: both;
+}
+
+/* box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); */

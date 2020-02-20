@@ -1,0 +1,211 @@
+body{
+    height: 100%;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: black;
+    text-align: center;
+    font-family: Calibri, Georgia, Times;
+    color: #ffffff;
+    background-image: url("niagararesize.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div#header{
+overflow: hidden;
+margin-bottom: 64px;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+div.overlay-block[id="header"]{
+    font-size: 1em;
+    padding: 10px;
+}
+
+div.overlay-block[id="header"] a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+div.overlay-block{
+    display: block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 2px #000000;
+}
+
+div p#name{
+    float: left;
+    width: 45%;
+    font-size: 1.28em;
+}
+
+div p{
+    font-family: Calibri, 'Lato', sans-serif;
+    text-shadow: 0px 1px 4px #000000;
+}
+
+div p#links{
+    float:right;
+    width: 45%;
+    text-align: right;
+}
+
+body img#profilepic{
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px 0px black;
+    width: 192px;
+}
+
+div#banner{
+    font-size: 1.8em;
+    margin: auto;
+    margin-bottom: 64px;
+    width: 80%;
+}
+
+div#banner h1{
+    font-family: Calibri, Arial, sans-serif;
+    text-shadow: 0px 1px 4px #000000;
+}
+
+div#banner a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+div#banner img{
+    mix-blend-mode: multiply;
+}
+
+div.overlay-block[id="main"]{
+    padding: 5%;
+}
+
+table{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.overlay-block[id="main"] th{
+    padding: 4px;
+    border-radius: 8px;
+    margin: 0px;
+}
+
+div.overlay-block th{
+    width: 20%;
+}
+
+table, th, tr, td{
+    margin: 0px;
+}
+
+div#main h3{
+    font-family: Calibri, Arial, sans-serif;
+    text-shadow: 0px 1px 4px #000000;
+}
+
+div.overlay-block[id="main"] th:last-child{
+    padding-right: 0%;
+}
+
+div.overlay-block[id="main"] td{
+    padding: 4px;
+    border-radius: 8px;
+}
+
+div.overlay-block td{
+    vertical-align: top;
+    width: 20%;
+}
+
+div.overlay-block td img{
+    border-radius: 50%;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.overlay-block td ul li a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+div.panel{
+    background-color: black;
+    background-image: url(pittresizeflag.JPG);
+    background-attachment: fixed;
+    background-position: center bottom;
+    font-size: 1.8em;
+    margin: auto;
+    padding-bottom: 64px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.panel img{
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* td#navbar{
+    border-style: solid;
+    border-color: #000000;
+    float: left;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+td#navbar li {
+    line-height: 2em;
+}
+
+td#navbar li a{
+    background-image: url(blackfabric.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    border: ridge;
+    border-color: #000000;
+    display: block; 
+    padding: 5px;
+    opacity: 0.5;
+}
+
+td#navbar a:hover{
+    opacity: 1;
+    background-color: black;
+} */
+
+p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    overflow: hidden;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1em;
+    text-decoration: none;
+    color: lightskyblue;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 2px #000000;
+}

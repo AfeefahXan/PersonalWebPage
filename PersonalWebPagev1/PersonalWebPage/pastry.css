@@ -1,0 +1,287 @@
+body{
+    height: 100%;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: black;
+    font-family: Calibri, Georgia, Times;
+    color: #ffffff;
+    background-image: url("southside.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div#header{
+overflow: hidden;
+margin-bottom: 64px;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+div.overlay-block[id="header"]{
+    font-size: 1em;
+    padding: 10px;
+
+}
+
+div.overlay-block[id="header"] a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+div.overlay-block{
+    display: block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 2px #000000;
+}
+
+div p#name{
+    float: left;
+    width: 45%;
+    font-size: 1.28em;
+}
+
+div p#links{
+    float:right;
+    width: 45%;
+    text-align: right;
+}
+
+nav{
+    /* border-style: dotted;
+    border-color: red; */
+    float: left;
+    margin: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 500px;
+    width: 12%;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 2px #000000;
+}
+
+nav h3{
+    list-style: none;
+    background-image: url(blackfabric.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    border: ridge;
+    border-color: #000000;
+    display: block; 
+    padding: 5px;
+    margin: 0;
+    line-height: 2em;
+}
+
+nav p.head{
+    list-style: none;
+    background-image: url(blackfabric.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    border: ridge;
+    border-color: #000000;
+    display: block;
+    opacity: 1;
+}
+
+
+p.head a:hover{
+    opacity: 0.5;
+    background-color: black;
+}
+
+nav p{
+    list-style: none;
+    line-height: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+nav p a.top{
+    border-bottom: 1px solid grey;
+}
+
+nav p.menu{
+    line-height: 3em;
+}
+
+nav div p#author{
+    border-style: ridge;
+}
+
+nav div p#para{
+    font-size: 0.7em;
+    font-style: italic;
+    margin: 20px;
+}
+
+nav h4{
+    list-style: none;
+    background-image: url(blackfabric.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    border: ridge;
+    border-color: #000000;
+    display: block; 
+    padding: 5px;
+    margin: 0;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+}
+
+p.menu a:hover{
+    opacity: 0.8;
+    background-color: black;
+}
+
+div.main{
+    background-color: rgba(0, 0, 0, 0.65);
+    display: block;
+    padding: 100px;
+    padding-right: 50px;
+    font-size: 1em;
+    font-style: italic;
+    box-shadow: 0px 0px 2px #000000;
+    list-style: none;
+    float: left;
+}
+
+div.main#con1{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+div.main#con2{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+div.main#con3{
+    padding-bottom: 0;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    width: 1198px;
+}
+
+section{
+    padding-right: 100px; 
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(135, 206, 250, 0.8);
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text p{
+    font-size: 0.8em;
+}
+
+.container{
+    position: relative;
+    width: 250px;
+    background-color: rgb(135, 206, 250, 0.3);
+    box-shadow: 0px 0px 2px #000000;
+    border-style: solid;
+    display: block;
+    word-wrap: break-word;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    /* border-style: dotted;
+    border-color: red; */
+    float: left;
+    margin-left: 50px
+}
+
+.image{
+    display: block;
+    width: 250px;
+}
+
+
+div header{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+hgroup h1{
+    border-style: dotted;
+    border-color: red;
+    float: none;
+    background-image: url(blackfabric.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border: ridge;
+    border-radius: 3%;
+    font-style: italic;
+   
+}
+
+hgroup h1#single{
+    width: 97%;
+}
+
+p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    clear: both;
+    overflow: hidden;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1em;
+    text-decoration: none;
+    color: lightskyblue;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 2px #000000;
+    text-align: center;
+}
